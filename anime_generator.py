@@ -65,14 +65,7 @@ option = bar.selectbox("Select Page", options)
 
 if option == "Home":
     homepage()
-    bar.text("Links:")
-    bar.info("[Visit my GitHub account](https://github.com/Lackyjian)")
-    bar.info("[Visit my LinkedIn account](https://www.linkedin.com/in/lakshay-jain-ab1895281/)")
-    bar.info("[Visit my Kaggle account](https://www.kaggle.com/lakshayjain611)")
-
+   
 if option == "Generator":
     generator()
-    bar.text("Links:")
-    bar.info("[Visit my GitHub account](https://github.com/Lackyjian)")
-    bar.info("[Visit my LinkedIn account](https://www.linkedin.com/in/lakshay-jain-ab1895281/)")
-    bar.info("[Visit my Kaggle account](https://www.kaggle.com/lakshayjain611)")
+    
